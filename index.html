@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sri Surya Interior Designers & Architects</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">
+    Sri Surya
+    <span>Interior Designers &amp; Architects</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#videos">Videos</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#consultation" class="nav-cta">Book Consultation</a></li>
+  </ul>
+  <button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.add('open')" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu">
+  <button class="mobile-close" onclick="document.querySelector('.mobile-menu').classList.remove('open')">✕</button>
+  <a href="#about" onclick="document.querySelector('.mobile-menu').classList.remove('open')">About</a>
+  <a href="#services" onclick="document.querySelector('.mobile-menu').classList.remove('open')">Services</a>
+  <a href="#portfolio" onclick="document.querySelector('.mobile-menu').classList.remove('open')">Portfolio</a>
+  <a href="#videos" onclick="document.querySelector('.mobile-menu').classList.remove('open')">Videos</a>
+  <a href="#testimonials" onclick="document.querySelector('.mobile-menu').classList.remove('open')">Reviews</a>
+  <a href="#contact" onclick="document.querySelector('.mobile-menu').classList.remove('open')">Contact</a>
+  <a href="#consultation" onclick="document.querySelector('.mobile-menu').classList.remove('open')">Book Consultation</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Luxury Interior Design</div>
+    <h1 class="hero-title">
+      Spaces That Tell<br><em>Your Story</em>
+    </h1>
+    <p class="hero-sub">Sri Surya Interior Designers & Architects crafts timeless interiors — blending traditional warmth with modern elegance to transform your space into a living masterpiece.</p>
+    <div class="hero-btns">
+      <a href="#consultation" class="btn-primary">Book Free Consultation</a>
+      <a href="#portfolio" class="btn-outline">View Our Work</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">8+</div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">60</div>
+      <div class="stat-label">Projects Done</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">98%</div>
+      <div class="stat-label">Client Satisfaction</div>
+    </div>
+  </div>
+</section>
+
+<!-- HERO IMAGE BANNER -->
+<div style="position:relative; width:100%; height:520px; overflow:hidden;">
+  <img src="images/photo-01.jpg" alt="We bring life to the spaces" style="width:100%; height:100%; object-fit:cover; object-position:center; display:block;">
+  <div style="position:absolute; inset:0; background:rgba(42,20,5,0.45); display:flex; align-items:center; justify-content:center; flex-direction:column; gap:1rem;">
+    <div style="width:50px; height:1px; background:#C6963A;"></div>
+    <h2 style="font-family:'Cormorant Garamond', serif; font-size:clamp(2rem,5vw,3.8rem); font-weight:300; color:#F9F4EE; letter-spacing:0.04em; text-align:center; line-height:1.2; margin:0;">We Bring Life to the Spaces</h2>
+    <div style="width:50px; height:1px; background:#C6963A;"></div>
+  </div>
+</div>
+
+<!-- HERO IMAGE BANNER 2 -->
+<div style="position:relative; width:100%; height:520px; overflow:hidden;">
+  <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1200&q=80&fit=crop" alt="Your home deserves better" style="width:100%; height:100%; object-fit:cover; object-position:center; display:block;">
+  <div style="position:absolute; inset:0; background:rgba(20,12,4,0.5); display:flex; align-items:center; justify-content:center; flex-direction:column; gap:1rem;">
+    <div style="width:50px; height:1px; background:#C6963A;"></div>
+    <h2 style="font-family:'Cormorant Garamond', serif; font-size:clamp(1.6rem,4vw,3.2rem); font-weight:300; color:#F9F4EE; letter-spacing:0.04em; text-align:center; line-height:1.3; margin:0; max-width:700px; padding:0 1rem;">Your Home Deserves Better —<br><em style="font-style:italic; color:#E4BC72;">Elevate Your Home With Us</em></h2>
+    <div style="width:50px; height:1px; background:#C6963A;"></div>
+    <a href="#consultation" style="margin-top:0.5rem; display:inline-block; background:#C6963A; color:#3E2A12; text-decoration:none; padding:0.8rem 2rem; font-family:'Jost',sans-serif; font-size:0.78rem; letter-spacing:0.14em; text-transform:uppercase; font-weight:600; border-radius:2px;">Book Free Consultation</a>
+  </div>
+</div>
+
+<!-- HERO IMAGE BANNER 3 -->
+<div style="position:relative; width:100%; height:520px; overflow:hidden;">
+  <img src="images/photo-02.jpg" alt="Coz home is not just space" style="width:100%; height:100%; object-fit:cover; object-position:center; display:block;">
+  <div style="position:absolute; inset:0; background:rgba(15,8,2,0.52); display:flex; align-items:center; justify-content:center; flex-direction:column; gap:1rem;">
+    <div style="width:50px; height:1px; background:#C6963A;"></div>
+    <h2 style="font-family:'Cormorant Garamond', serif; font-size:clamp(1.5rem,4vw,3rem); font-weight:300; color:#F9F4EE; letter-spacing:0.03em; text-align:center; line-height:1.4; margin:0; max-width:750px; padding:0 1.5rem; font-style:italic;">"Coz Home Is Not Just a Space —<br><span style="color:#E4BC72; font-style:normal; font-weight:400;">It's Where Your Dreams Are Built"</span></h2>
+    <div style="width:50px; height:1px; background:#C6963A;"></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-img-wrap">
+      <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80&fit=crop" alt="Sri Surya Interior Design Studio — Luxury Living Room" style="width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:4px; display:block;">
+      <div class="about-accent">
+        <div class="about-accent-num">60</div>
+        <div class="about-accent-label">Happy Families</div>
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="section-eyebrow">Who We Are</div>
+      <h2 class="section-title">Crafting Spaces With Passion & Precision</h2>
+      <p>Sri Surya Interior Designers & Architects is a full-service interior design and architecture studio based in Hyderabad. With over a decade of experience, we bring dreams to life through thoughtful design, quality craftsmanship, and personal attention to every detail.</p>
+      <p>From intimate homes to grand commercial spaces, our team blends your vision with our expertise to create interiors that are not just beautiful — but deeply functional and uniquely yours.</p>
+      <div class="about-features">
+        <div class="about-feature">
+          <div class="feature-dot"></div>
+          <div class="feature-text">
+            <h4>Custom Design</h4>
+            <p>Every project is unique, crafted to your specific vision</p>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="feature-dot"></div>
+          <div class="feature-text">
+            <h4>On-Time Delivery</h4>
+            <p>Committed to timelines and promised deadlines</p>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="feature-dot"></div>
+          <div class="feature-text">
+            <h4>Quality Materials</h4>
+            <p>Only premium, durable materials and finishes</p>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="feature-dot"></div>
+          <div class="feature-text">
+            <h4>3D Visualization</h4>
+            <p>See your space before a single nail is hammered</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-eyebrow">What We Offer</div>
+  <h2 class="section-title">Our Services</h2>
+  <p class="section-sub">From concept to completion — every service you need under one roof.</p>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">🏠</div>
+      <h3>Residential Interiors</h3>
+      <p>Transform your home into a haven of comfort and style. We design living rooms, bedrooms, kitchens, and every corner with a personal touch.</p>
+      <a href="#consultation" class="service-link">Get Consultation →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏢</div>
+      <h3>Commercial Spaces</h3>
+      <p>Create inspiring workplaces, retail showrooms, restaurants and hospitality spaces that leave lasting impressions on every visitor.</p>
+      <a href="#consultation" class="service-link">Get Consultation →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">📐</div>
+      <h3>Architecture & Planning</h3>
+      <p>End-to-end architectural services — from floor plan design and space optimization to structural layout and elevation design.</p>
+      <a href="#consultation" class="service-link">Get Consultation →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🪑</div>
+      <h3>Furniture & Décor</h3>
+      <p>Custom furniture design and curated décor selections that perfectly complement your interiors — from modular wardrobes to statement pieces.</p>
+      <a href="#consultation" class="service-link">Get Consultation →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">💡</div>
+      <h3>Lighting Design</h3>
+      <p>Strategic lighting plans that enhance ambience, highlight architecture, and make every space feel its absolute best day and night.</p>
+      <a href="#consultation" class="service-link">Get Consultation →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🎨</div>
+      <h3>3D Design & Visualization</h3>
+      <p>Photorealistic 3D renders and walkthroughs so you can visualize and approve every detail of your space before execution begins.</p>
+      <a href="#consultation" class="service-link">Get Consultation →</a>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" style="background:var(--brown-deep); padding:2.5rem 5%;">
+  <div class="section-eyebrow" style="color:var(--gold-light);">Our Work</div>
+  <h2 class="section-title" style="color:var(--cream);">Portfolio</h2>
+  <p class="section-sub" style="color:rgba(232,217,197,0.6); max-width:600px; margin-bottom:2.5rem;">Real projects, real spaces — spanning luxury commercial offices, residential homes, modular kitchens and custom furniture. Click a category to explore.</p>
+
+  <div class="portfolio-filters">
+    <button class="filter-btn active" onclick="filterCat(this,'all')">All Projects</button>
+    <button class="filter-btn" onclick="filterCat(this,'commercial')">Commercial</button>
+    <button class="filter-btn" onclick="filterCat(this,'residential')">Residential</button>
+    <button class="filter-btn" onclick="filterCat(this,'kitchen')">Modular Kitchen</button>
+    <button class="filter-btn" onclick="filterCat(this,'furniture')">Furniture & Wardrobes</button>
+  </div>
+
+  <!-- COMMERCIAL: Luxury Corporate Office -->
+  <div class="proj-block" data-cat="commercial">
+    <span class="proj-label">Commercial</span>
+    <h3>Luxury Corporate Office — Hyderabad</h3>
+    <p class="pdesc">Gold-accented wall panelling, executive conference rooms, pink velvet lounge areas and polished marble floors — a premium headquarters designed for a leading Hyderabad corporation.</p>
+    <div class="pgrid pgrid-3">
+      <div class="pitem">
+        <img src="images/photo-03.jpg" alt="Lounge Area">
+        <div class="portfolio-overlay"><h3>Luxury Lounge Area</h3><p>Commercial · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-04.jpg" alt="Meeting Area">
+        <div class="portfolio-overlay"><h3>Executive Meeting Area</h3><p>Commercial · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-05.jpg" alt="Conference Hall">
+        <div class="portfolio-overlay"><h3>Corporate Conference Hall</h3><p>Commercial · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-06.jpg" alt="Director Office">
+        <div class="portfolio-overlay"><h3>Director's Office</h3><p>Commercial · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-07.jpg" alt="Director Cabin">
+        <div class="portfolio-overlay"><h3>Premium Director Cabin</h3><p>Commercial · Hyderabad</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESIDENTIAL -->
+  <div class="proj-block" data-cat="residential">
+    <span class="proj-label">Residential</span>
+    <h3>Residential Home Interiors — Hyderabad</h3>
+    <p class="pdesc">Living rooms, TV units, feature walls and false ceilings crafted with warm wood tones, ambient lighting and clean lines for modern Hyderabad homes.</p>
+    <div class="pgrid pgrid-3">
+      <div class="pitem">
+        <img src="images/photo-08.jpg" alt="Open Living with TV & Partition" loading="lazy">
+        <div class="portfolio-overlay"><h3>Open Living with TV & Partition</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-09.jpg" alt="TV Unit with Feature Wall" loading="lazy">
+        <div class="portfolio-overlay"><h3>TV Unit with Feature Wall</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-10.jpg" alt="TV Unit with Walnut Wall" loading="lazy">
+        <div class="portfolio-overlay"><h3>TV Unit with Walnut Wall</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-11.jpg" alt="Living Room with False Ceiling" loading="lazy">
+        <div class="portfolio-overlay"><h3>Living Room with False Ceiling</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-12.jpg" alt="TV Unit with Backlit Shelves" loading="lazy">
+        <div class="portfolio-overlay"><h3>TV Unit with Backlit Shelves</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-13.jpg" alt="Marble Feature Wall & Ceiling" loading="lazy">
+        <div class="portfolio-overlay"><h3>Marble Feature Wall & Ceiling</h3><p>Residential · Hyderabad</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODULAR KITCHEN -->
+  <div class="proj-block" data-cat="kitchen">
+    <span class="proj-label">Modular Kitchen</span>
+    <h3>Modular Kitchen Designs</h3>
+    <p class="pdesc">From bold blue gloss to warm wood finishes — fully customised modular kitchens with premium shutters, countertops and smart storage solutions.</p>
+    <div class="pgrid pgrid-3">
+      <div class="pitem">
+        <img src="images/photo-14.jpg" alt="Blue Gloss L-Shaped Kitchen" loading="lazy">
+        <div class="portfolio-overlay"><h3>Blue Gloss L-Shaped Kitchen</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-15.jpg" alt="Blue Kitchen with Glass Cabinets" loading="lazy">
+        <div class="portfolio-overlay"><h3>Blue Kitchen with Glass Cabinets</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-16.jpg" alt="L-Shaped Modular Kitchen" loading="lazy">
+        <div class="portfolio-overlay"><h3>L-Shaped Modular Kitchen</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-17.jpg" alt="Sleek Black & Walnut Kitchen" loading="lazy">
+        <div class="portfolio-overlay"><h3>Sleek Black & Walnut Kitchen</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-18.jpg" alt="Two-Tone Kitchen Marble Backsplash" loading="lazy">
+        <div class="portfolio-overlay"><h3>Two-Tone Kitchen Marble Backsplash</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-19.jpg" alt="Teal & White Modular Kitchen" loading="lazy">
+        <div class="portfolio-overlay"><h3>Teal & White Modular Kitchen</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-20.jpg" alt="Wood Finish Modular Kitchen" loading="lazy">
+        <div class="portfolio-overlay"><h3>Wood Finish Modular Kitchen</h3><p>Residential · Hyderabad</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FURNITURE & WARDROBES -->
+  <div class="proj-block" data-cat="furniture">
+    <span class="proj-label">Furniture & Wardrobes</span>
+    <h3>Custom Wardrobes & Furniture</h3>
+    <p class="pdesc">Precision-crafted wardrobes, sliding doors, wall-mounted units and storage solutions — built to maximise space and match your style perfectly.</p>
+    <div class="pgrid pgrid-3">
+      <div class="pitem">
+        <img src="images/photo-21.jpg" alt="Full-Height Glossy White Wardrobe" loading="lazy">
+        <div class="portfolio-overlay"><h3>Full-Height Glossy White Wardrobe</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-22.jpg" alt="Teal Wardrobe with Wooden Door" loading="lazy">
+        <div class="portfolio-overlay"><h3>Teal Wardrobe with Wooden Door</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-23.jpg" alt="Teal & White Wardrobe" loading="lazy">
+        <div class="portfolio-overlay"><h3>Teal & White Wardrobe</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-24.jpg" alt="Sliding Wardrobe with Wooden Door" loading="lazy">
+        <div class="portfolio-overlay"><h3>Sliding Wardrobe with Wooden Door</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-25.jpg" alt="Green Wardrobe Suite" loading="lazy">
+        <div class="portfolio-overlay"><h3>Green Wardrobe Suite</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-26.jpg" alt="Cream High-Gloss Wardrobe" loading="lazy">
+        <div class="portfolio-overlay"><h3>Cream High-Gloss Wardrobe</h3><p>Residential · Hyderabad</p></div>
+      </div>
+      <div class="pitem">
+        <img src="images/photo-27.jpg" alt="Wall-Mounted Storage Unit" loading="lazy">
+        <div class="portfolio-overlay"><h3>Wall-Mounted Storage Unit</h3><p>Residential · Hyderabad</p></div>
+      </div>
+    </div>
+  </div>
+      
+      
+
+</section>
+
+<!-- VIDEOS -->
+<section id="videos" style="background:var(--cream2); padding:5rem 5%;">
+  <div class="section-eyebrow">Watch Our Work</div>
+  <h2 class="section-title">Project Video Tours</h2>
+  <p style="text-align:center; max-width:560px; margin:0.5rem auto 2.8rem; color:var(--brown-mid); font-size:0.95rem; line-height:1.8;">
+    Step inside our completed interiors. Click any video to watch a full walkthrough of our design and craftsmanship.
+  </p>
+  <div class="video-grid">
+      <div class="video-card" onclick="openVideo('EfDZu0UAcAg')">
+        <div class="video-thumb">
+          <img src="https://img.youtube.com/vi/EfDZu0UAcAg/hqdefault.jpg" alt="Complete Home Interior Tour" loading="lazy">
+          <div class="video-play"><svg viewBox="0 0 68 48" width="54" height="38"><path d="M66.5 7.7c-.8-2.9-2.5-5.2-5.4-6C55.8.1 34 0 34 0S12.2.1 6.9 1.7C4 2.5 2.3 4.8 1.5 7.7.1 13.1 0 24 0 24s.1 10.9 1.5 16.3c.8 2.9 2.5 5.2 5.4 6C12.2 47.9 34 48 34 48s21.8-.1 27.1-1.7c2.9-.8 4.6-3.1 5.4-6C67.9 34.9 68 24 68 24s-.1-10.9-1.5-16.3z" fill="#C6963A"/><path d="M27 34.5L45 24 27 13.5z" fill="#fff"/></svg></div>
+        </div>
+        <div class="video-info">
+          <span class="video-tag">Project Tour</span>
+          <h3>Complete Home Interior Tour</h3>
+        </div>
+      </div>
+      <div class="video-card" onclick="openVideo('zwQd4rYWu4E')">
+        <div class="video-thumb">
+          <img src="https://img.youtube.com/vi/zwQd4rYWu4E/hqdefault.jpg" alt="Elegant Living Room Design" loading="lazy">
+          <div class="video-play"><svg viewBox="0 0 68 48" width="54" height="38"><path d="M66.5 7.7c-.8-2.9-2.5-5.2-5.4-6C55.8.1 34 0 34 0S12.2.1 6.9 1.7C4 2.5 2.3 4.8 1.5 7.7.1 13.1 0 24 0 24s.1 10.9 1.5 16.3c.8 2.9 2.5 5.2 5.4 6C12.2 47.9 34 48 34 48s21.8-.1 27.1-1.7c2.9-.8 4.6-3.1 5.4-6C67.9 34.9 68 24 68 24s-.1-10.9-1.5-16.3z" fill="#C6963A"/><path d="M27 34.5L45 24 27 13.5z" fill="#fff"/></svg></div>
+        </div>
+        <div class="video-info">
+          <span class="video-tag">Project Tour</span>
+          <h3>Elegant Living Room Design</h3>
+        </div>
+      </div>
+      <div class="video-card" onclick="openVideo('3jLbsQtkPHE')">
+        <div class="video-thumb">
+          <img src="https://img.youtube.com/vi/3jLbsQtkPHE/hqdefault.jpg" alt="Modern Kitchen & Wardrobe Design" loading="lazy">
+          <div class="video-play"><svg viewBox="0 0 68 48" width="54" height="38"><path d="M66.5 7.7c-.8-2.9-2.5-5.2-5.4-6C55.8.1 34 0 34 0S12.2.1 6.9 1.7C4 2.5 2.3 4.8 1.5 7.7.1 13.1 0 24 0 24s.1 10.9 1.5 16.3c.8 2.9 2.5 5.2 5.4 6C12.2 47.9 34 48 34 48s21.8-.1 27.1-1.7c2.9-.8 4.6-3.1 5.4-6C67.9 34.9 68 24 68 24s-.1-10.9-1.5-16.3z" fill="#C6963A"/><path d="M27 34.5L45 24 27 13.5z" fill="#fff"/></svg></div>
+        </div>
+        <div class="video-info">
+          <span class="video-tag">Project Tour</span>
+          <h3>Modern Kitchen & Wardrobe Design</h3>
+        </div>
+      </div>
+      <div class="video-card" onclick="openVideo('hjCnH1qcgWk')">
+        <div class="video-thumb">
+          <img src="https://img.youtube.com/vi/hjCnH1qcgWk/hqdefault.jpg" alt="Full Home Interior Walkthrough" loading="lazy">
+          <div class="video-play"><svg viewBox="0 0 68 48" width="54" height="38"><path d="M66.5 7.7c-.8-2.9-2.5-5.2-5.4-6C55.8.1 34 0 34 0S12.2.1 6.9 1.7C4 2.5 2.3 4.8 1.5 7.7.1 13.1 0 24 0 24s.1 10.9 1.5 16.3c.8 2.9 2.5 5.2 5.4 6C12.2 47.9 34 48 34 48s21.8-.1 27.1-1.7c2.9-.8 4.6-3.1 5.4-6C67.9 34.9 68 24 68 24s-.1-10.9-1.5-16.3z" fill="#C6963A"/><path d="M27 34.5L45 24 27 13.5z" fill="#fff"/></svg></div>
+        </div>
+        <div class="video-info">
+          <span class="video-tag">Project Tour</span>
+          <h3>Full Home Interior Walkthrough</h3>
+        </div>
+      </div>
+  </div>
+  <div style="text-align:center; margin-top:2.6rem;">
+    <a href="https://youtube.com/@srisuryainteriordesignerar9620" target="_blank" rel="noopener" class="btn-outline" style="border-color:var(--brown-dark); color:var(--brown-dark);">Visit Our YouTube Channel</a>
+  </div>
+</section>
+
+<!-- VIDEO LIGHTBOX -->
+<div class="video-lightbox" id="videoLightbox" onclick="closeVideo(event)">
+  <div class="video-lightbox-inner">
+    <button class="video-lightbox-close" onclick="closeVideo(event)" aria-label="Close video">&times;</button>
+    <div class="video-lightbox-frame" id="videoFrameHolder"></div>
+  </div>
+</div>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-eyebrow">Client Stories</div>
+  <h2 class="section-title">What Our Clients Say</h2>
+  <p class="section-sub">Real words from the families and businesses we've worked with.</p>
+
+  <!-- Google-style review cards -->
+  <div class="overall-rating">
+    <div class="rating-big">4.9</div>
+    <div class="rating-info">
+      <div class="rating-stars-big">★★★★★</div>
+      <div class="rating-count">Based on client reviews · Hyderabad</div>
+      <div style="display:flex;align-items:center;gap:0.4rem;margin-top:4px;">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+        <span style="font-size:0.75rem;color:var(--text-muted);">Google Reviews</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="reviews-wrap">
+
+    <div class="review-card">
+      <div class="review-top">
+        <div class="review-avatar" style="background:#FEE2E2;color:#B91C1C;">SR</div>
+        <div>
+          <div class="review-name">Suresh Reddy</div>
+          <div class="review-meta">
+            <svg viewBox="0 0 24 24" class="google-icon" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            <span>Google review</span>
+            <span>·</span><span class="review-date">2 months ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Got our 3BHK done by Sri Surya. Shiva bhai was very patient with all our changes and suggestions. The workers were clean and on time. Total budget was maintained as discussed. Very happy with the bedroom wardrobes and false ceiling work.</p>
+      <span class="review-tag">Residential · Pragati Nagar</span>
+    </div>
+
+    <div class="review-card">
+      <div class="review-top">
+        <div class="review-avatar" style="background:#DCFCE7;color:#15803D;">LN</div>
+        <div>
+          <div class="review-name">Lakshmi Narayana</div>
+          <div class="review-meta">
+            <svg viewBox="0 0 24 24" class="google-icon" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            <span>Google review</span>
+            <span>·</span><span class="review-date">4 months ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">We hired them for our office interior in Hyderabad. The conference room and cabin work is outstanding — the gold trims and false ceiling came out exactly like the 3D they showed us. A few small delays but they communicated well. Would definitely recommend.</p>
+      <span class="review-tag">Commercial Office · Hyderabad</span>
+    </div>
+
+    <div class="review-card">
+      <div class="review-top">
+        <div class="review-avatar" style="background:#EDE9FE;color:#6D28D9;">PV</div>
+        <div>
+          <div class="review-name">Padma Venkat</div>
+          <div class="review-meta">
+            <svg viewBox="0 0 24 24" class="google-icon" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            <span>Google review</span>
+            <span>·</span><span class="review-date">6 months ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-stars">★★★★☆</div>
+      <p class="review-text">Nice work overall. Kitchen modular cabinets look very clean and modern. Only thing was the completion took 10 extra days but Shiva sir kept us updated throughout. The end result is good and within our budget of 4 lakhs. Will use again for next flat.</p>
+      <span class="review-tag">Modular Kitchen · Nizampet</span>
+    </div>
+
+    <div class="review-card">
+      <div class="review-top">
+        <div class="review-avatar" style="background:#FEF9C3;color:#A16207;">RB</div>
+        <div>
+          <div class="review-name">Ravi Bhushan</div>
+          <div class="review-meta">
+            <svg viewBox="0 0 24 24" class="google-icon" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            <span>Google review</span>
+            <span>·</span><span class="review-date">8 months ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Shiva and his team did full interior for our new house — living room, 2 bedrooms, pooja room and kitchen. The 3D design was very helpful, my wife could visualize everything before work started. Quality is top notch and they finished in 45 days as promised.</p>
+      <span class="review-tag">Full Home Interior · Bachupally</span>
+    </div>
+
+    <div class="review-card">
+      <div class="review-top">
+        <div class="review-avatar" style="background:#E0F2FE;color:#0369A1;">SM</div>
+        <div>
+          <div class="review-name">Sneha Maheshwari</div>
+          <div class="review-meta">
+            <svg viewBox="0 0 24 24" class="google-icon" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            <span>Google review</span>
+            <span>·</span><span class="review-date">1 year ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Best decision we made was choosing Sri Surya for our flat interiors. Very honest with pricing, no hidden charges. They suggested great ideas for our small 2BHK to make it look spacious. The TV unit and wardrobe work is absolutely stunning. 10/10!</p>
+      <span class="review-tag">2BHK Flat · Kukatpally</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONSULTATION -->
+<section id="consultation">
+  <div class="consultation-wrap">
+    <div class="consult-info">
+      <div class="section-eyebrow">Get In Touch</div>
+      <h2 class="section-title">Book a Free Consultation</h2>
+      <p>Tell us about your project and our design team will get back to you within 24 hours to schedule your personalized consultation session.</p>
+      <div class="consult-steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-text">
+            <h4>Share Your Details</h4>
+            <p>Fill the form with your project requirements and preferences</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-text">
+            <h4>We Call You</h4>
+            <p>Our design expert contacts you within 24 hours to discuss your vision</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-text">
+            <h4>Site Visit & Proposal</h4>
+            <p>We visit your space and prepare a custom design proposal for you</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <h3>Consultation Request</h3>
+      <p>Free consultation · No commitment required</p>
+
+      <div id="consult-form">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="fname">First Name *</label>
+            <input type="text" id="fname" placeholder="Your first name">
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name *</label>
+            <input type="text" id="lname" placeholder="Your last name">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" placeholder="+91 7799799927">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="you@example.com">
+          </div>
+          <div class="form-group full">
+            <label for="property">Property Type *</label>
+            <select id="property">
+              <option value="" disabled selected>Select property type</option>
+              <option>2 BHK Flat</option>
+              <option>3 BHK Flat</option>
+              <option>Apartment / Flat (Other)</option>
+              <option>Independent House</option>
+              <option>Villa / Bungalow</option>
+              <option>Office / Workplace</option>
+              <option>Retail / Showroom</option>
+              <option>Restaurant / Hospitality</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group full">
+            <label>Your Budget Range *</label>
+            <div class="budget-options">
+              <div class="budget-opt">
+                <input type="radio" name="budget" id="b1" value="5-10L">
+                <label for="b1">₹5L – ₹10L</label>
+              </div>
+              <div class="budget-opt">
+                <input type="radio" name="budget" id="b2" value="10-25L">
+                <label for="b2">₹10L – ₹25L</label>
+              </div>
+              <div class="budget-opt">
+                <input type="radio" name="budget" id="b3" value="25-50L">
+                <label for="b3">₹25L – ₹50L</label>
+              </div>
+              <div class="budget-opt">
+                <input type="radio" name="budget" id="b4" value="50-1Cr">
+                <label for="b4">₹50L – ₹1Cr</label>
+              </div>
+              <div class="budget-opt">
+                <input type="radio" name="budget" id="b5" value="1Cr+">
+                <label for="b5">₹1Cr+</label>
+              </div>
+              <div class="budget-opt">
+                <input type="radio" name="budget" id="b6" value="flexible">
+                <label for="b6">Flexible</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="area">Total Area (sq ft)</label>
+            <input type="number" id="area" placeholder="e.g. 1500">
+          </div>
+          <div class="form-group">
+            <label for="rooms">Number of Rooms</label>
+            <select id="rooms">
+              <option value="" disabled selected>Select</option>
+              <option>1 BHK</option>
+              <option>2 BHK Flat</option>
+              <option>2 BHK Independent House</option>
+              <option>3 BHK Flat</option>
+              <option>3 BHK Independent House</option>
+              <option>4 BHK</option>
+              <option>4+ BHK / Villa</option>
+              <option>Office / Commercial</option>
+            </select>
+          </div>
+          <div class="form-group full">
+            <label for="message">Tell Us About Your Vision</label>
+            <textarea id="message" placeholder="Describe your style preferences, specific rooms, inspirations, or anything else you'd like us to know..."></textarea>
+          </div>
+        </div>
+        <button class="submit-btn" onclick="submitForm()">📲 Send via WhatsApp</button>
+      </div>
+
+      <div class="success-msg" id="success-msg">
+        <div class="success-icon">✅</div>
+        <h4>Thank You! We'll Be in Touch</h4>
+        <p>Your consultation request has been received. Our design team will contact you within 24 hours.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-eyebrow">Find Us</div>
+  <h2 class="section-title" style="color:var(--cream)">Contact & Location</h2>
+
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div class="contact-detail">
+          <h4>Our Studio</h4>
+          <p>G2, Siva Balaji Avenue<br>Prasanthi Hills, Pragati Nagar<br>Hyderabad, Telangana</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📞</div>
+        <div class="contact-detail">
+          <h4>Call Us</h4>
+          <p>+91 77997 99927<br>Shiva Yerra · Mon – Sat, 9 AM – 7 PM</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">✉️</div>
+        <div class="contact-detail">
+          <h4>Email Us</h4>
+          <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5f373a3333301f2c2d362c2a2d263e713631">[email&#160;protected]</a><br>We reply within 24 hours</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🕐</div>
+        <div class="contact-detail">
+          <h4>Working Hours</h4>
+          <p>Monday – Saturday: 9:00 AM – 7:00 PM<br>Sunday: By Appointment Only</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2937.750362302093!2d78.39168982934612!3d17.521412084551283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8fbd7d07bd3b%3A0xdc3b2bf5211c8d09!2sSiva%20Balaji%20Avenue!5e1!3m2!1sen!2sin!4v1779710268954!5m2!1sen!2sin"
+        width="100%"
+        height="280"
+        style="border:0; border-radius:4px; display:block;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Sri Surya Interior Designers & Architects - Location">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Sri Surya Interior Designers & Architects</div>
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#consultation">Consultation</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="footer-copy">© 2025 Sri Surya Interiors. All rights reserved.</div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
